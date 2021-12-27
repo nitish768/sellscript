@@ -33,3 +33,7 @@ tput setaf 7
 tput setab 3
 tput setab 7
 reset
+cat nk1.txt
+cat > nk1.txt
+cat >> nk1.txt
+> nk2.txt
