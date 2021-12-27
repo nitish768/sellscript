@@ -11,4 +11,7 @@ echo "hello"
 echo "hello\nhi"
 echo -e "hello\thi"
 echo -e "hello\b\b\b\b\bhi"
-
+date +%d
+date +%r
+date +%T
+echo -n -e "'date %T`b\b\b\b`"
