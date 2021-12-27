@@ -18,4 +18,18 @@ echo -n -e "'date %T`b\b\b\b`"
 mkdir fold1
 touch file1.txt
 cat file1.txt
-
+useradd nitish
+passwd nitish
+whoami
+tty
+ksdyiws #know about shell
+x=5
+echo x
+echo $x
+echo $USER
+echo $SHELL
+tput setaf 3
+tput setaf 7
+tput setab 3
+tput setab 7
+reset
