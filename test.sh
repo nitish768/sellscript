@@ -15,3 +15,7 @@ date +%d
 date +%r
 date +%T
 echo -n -e "'date %T`b\b\b\b`"
+mkdir fold1
+touch file1.txt
+cat file1.txt
+
