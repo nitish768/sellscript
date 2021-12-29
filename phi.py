@@ -36,6 +36,23 @@ x = "this is nitish searching for"
 "ravi" in x #False
 y=2, 6, 89, "hai", 8.7
 type(y) #toupe data type
+name = [ "nitish", "satish", "ritesh", ] #list data type edit mutet
+type(name)
+name[0] #same slicing rule "nitish"
+name[0:2] #nitish satish
+len(name) #find how many row 3
+name = [ "nitish", 1111 ,"satish", 2222 ,"ritesh", 3333 ] #added with no
+len(name) #6 len
+name[1] #'nitish',1111
+name[1][0] # skiping ans is satish mins 1 of 0
+name[2]
+name[:2]
+name[1:3]
+name[1:3][1]
+name[0]
+name[0][1]
+name[1][1]
+name[2][1]
 
 
 
