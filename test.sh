@@ -28,12 +28,16 @@ echo x
 echo $x
 echo $USER
 echo $SHELL
-tput setaf 3
-tput setaf 7
-tput setab 3
-tput setab 7
-reset
-cat nk1.txt
-cat > nk1.txt
-cat >> nk1.txt
-> nk2.txt
+tty
+date
+date > /dev/pts/0 # actual date cmd is running
+date > nk.txt # inside > this bash cmd is running
+cat nk.txt
+cat nk1.txt #write comnts
+cat nk.txt nk1.txt
+tr `a-z` `A-Z` # write any thing to convert in caps
+tr `a-z` `A-Z` <  nk1.txt # those written in this file converted in caps
+
+
+
+
