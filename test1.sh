@@ -12,4 +12,37 @@ man rpm
 rpm -q -i firefox # all info
 rpm -q -l firefox # long list
 # eog paste path of png / use this to change png pic with ur or any
+wc file2.txt
+wc < file2.txt
+wc -l file2.txt
+wc -w file2.txt
+wc -c file2.txt
+wc -l < file2.txt
+rpm -qa
+rpm -qa | wc -l
+grep linux file2.txt
+grep linux < file2.txt
+grep linux
+rpm -qu | grep python
+rpm -qa | grep python | wc -l
+rpm -qa | grep python | wc -l > file2.txt
+ls
+ls -l
+ls -l | wc -l
+ls -l | grep ^d
+ls -l | grep ^d | wc -l 
+ls -l | grep -n ^d
+grep -n linux file2.txt
+grep -v linux file2.txt
+grep -v -n linux file2.txt
+ls -l | grep ^d
+ls -l | grep ^d | wc -l
+ls -l | grep -v ^d | wc -l
+date > file2.txt
+date | wc -l
+date | tee
+date | tee file2.txt
+date | tee | wc -w
+date | tee file3.txt | wc -w
+cat file2.txt
 
